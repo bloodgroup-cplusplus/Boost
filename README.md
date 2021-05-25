@@ -10,9 +10,10 @@ sudo apt-get install libboost-all-dev
 
 remember while compiling the program do include the path if it doesn't simply compile with g++
 
-as in if your program doesn't compile with g++ programname.cpp then you need to inlcude the header files in your path for compilation 
+as in if your program doesn't compile with g++ programname.cpp then you need to inlcude the header files in your path for compilation .
+The command for linking to the required header file for linux is:
 
-g++ -I/usr/include/boost/programname.cpp -o programname
+g++ -I/usr/include/boost/ programname.cpp -o programname
 and run it using
 ./programname
 
