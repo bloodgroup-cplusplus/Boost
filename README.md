@@ -17,6 +17,9 @@ g++ -I/usr/include/boost/ programname.cpp -o programname
 and run it using
 ./programname
 
+or incase you want to directly compile using g++ then make sure to incldue the correct path in your header file
+i.e., make sure you add #include<boost/classname.h/...> correctly before executing the program
+
 
 2) FOR MAC USERS 
 
