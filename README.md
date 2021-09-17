@@ -21,7 +21,7 @@ or incase you want to directly compile using g++ then make sure to incldue the c
 i.e., make sure you add #include<boost/classname.h/...> correctly before executing the program
 
 
-2) FOR MAC USERS 
+2) FOR MAC USERS ...
 
 Install the boost library using the command
 
